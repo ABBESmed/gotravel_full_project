@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - GoTravel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="site-header__container">
+      <a href="Accueil.html" class="site-header__logo">GoTravel</a>
+
+      <input type="checkbox" id="menu-toggle" class="site-header__toggle">
+
+      <label for="menu-toggle" class="site-header__burger">
+        <span class="site-header__burger-line"></span>
+        <span class="site-header__burger-line"></span>
+        <span class="site-header__burger-line"></span>
+      </label>
+
+      <div class="site-header__actions">
+        <nav class="site-header__nav">
+          <ul class="site-header__menu">
+            <li class="site-header__item">
+              <a href="Accueil.html" class="site-header__link site-header__link--active">Accueil</a>
+            </li>
+            <li class="site-header__item">
+              <a href="voyages.html" class="site-header__link">Voyages</a>
+            </li>
+            <li class="site-header__item">
+              <a href="activites.html" class="site-header__link">Activités</a>
+            </li>
+            <li class="site-header__item">
+              <a href="contact.html" class="site-header__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="connexion.html" class="site-header__login">Connexion</a>
+        <a href="inscription.html" class="site-header__signup">Inscription</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">Explorez le monde</h1>
+          <p class="hero__text">
+            Découvrez des destinations incroyables et vivez des expériences inoubliables avec GoTravel.
+          </p>
+          <a href="voyages.html" class="hero__button">Explorer maintenant</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+      <div class="features__container">
+        <h2 class="features__title">Pourquoi choisir GoTravel</h2>
+
+        <div class="features__grid">
+          <article class="features__card">
+            <h3 class="features__card-title">Destinations uniques</h3>
+            <p class="features__card-text">Découvrez des endroits magnifiques partout dans le monde.</p>
+          </article>
+
+          <article class="features__card">
+            <h3 class="features__card-title">Réservation facile</h3>
+            <p class="features__card-text">Réservez vos voyages rapidement et en toute sécurité.</p>
+          </article>
+
+          <article class="features__card">
+            <h3 class="features__card-title">Support 24/7</h3>
+            <p class="features__card-text">Notre équipe est disponible à tout moment pour vous aider.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTINATIONS -->
+    <section class="destinations">
+      <div class="destinations__container">
+        <h2 class="destinations__title">Nos destinations populaires</h2>
+
+        <div class="destinations__grid">
+          <article class="destinations__card">
+            <img src="images/paris.jpg" alt="Paris" class="destinations__image">
+            <div class="destinations__content">
+              <h3 class="destinations__card-title">Paris</h3>
+              <p class="destinations__card-text">Découvrez la ville lumière et ses lieux emblématiques.</p>
+              <a href="paris.html" class="destinations__button">Voir plus</a>
+            </div>
+          </article>
+
+          <article class="destinations__card">
+            <img src="images/bali.jpg" alt="Bali" class="destinations__image">
+            <div class="destinations__content">
+              <h3 class="destinations__card-title">Bali</h3>
+              <p class="destinations__card-text">Profitez de plages magnifiques et d’une ambiance tropicale.</p>
+              <a href="bali.html" class="destinations__button">Voir plus</a>
+            </div>
+          </article>
+
+          <article class="destinations__card">
+            <img src="images/santorini.jpg" alt="Santorin" class="destinations__image">
+            <div class="destinations__content">
+              <h3 class="destinations__card-title">Santorin</h3>
+              <p class="destinations__card-text">Admirez des vues incroyables et des couchers de soleil magiques.</p>
+              <a href="santorini.html" class="destinations__button">Voir plus</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="testimonials__container">
+        <h2 class="testimonials__title">Ce que disent nos voyageurs</h2>
+
+        <div class="testimonials__grid">
+          <article class="testimonials__card">
+            <p class="testimonials__rating">★★★★★</p>
+            <p class="testimonials__text">Un voyage incroyable, tout était parfaitement organisé. L’expérience a dépassé mes attentes.</p>
+            <h3 class="testimonials__name">Sophie Martin</h3>
+          </article>
+
+          <article class="testimonials__card">
+            <p class="testimonials__rating">★★★★★</p>
+            <p class="testimonials__text">Service excellent, réservation simple et destinations magnifiques. Je recommande vivement GoTravel.</p>
+            <h3 class="testimonials__name">Julien Dubois</h3>
+          </article>
+
+          <article class="testimonials__card">
+            <p class="testimonials__rating">★★★★★</p>
+            <p class="testimonials__text">Une expérience inoubliable du début à la fin. L’équipe a été disponible à chaque étape.</p>
+            <h3 class="testimonials__name">Camille Bernard</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="site-footer__container">
+      <h2 class="site-footer__logo">GoTravel</h2>
+
+      <nav class="site-footer__nav">
+        <a href="Accueil.html" class="site-footer__link">Accueil</a>
+        <a href="voyages.html" class="site-footer__link">Voyages</a>
+        <a href="activites.html" class="site-footer__link">Activités</a>
+        <a href="contact.html" class="site-footer__link">Contact</a>
+      </nav>
+
+      <div class="site-footer__contact">
+        <p>Email : contact@gotravel.com</p>
+        <p>Téléphone : +33 6 12 34 56 78</p>
+      </div>
+
+      <p class="site-footer__copyright">
+        © 2026 GoTravel. Tous droits réservés.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>

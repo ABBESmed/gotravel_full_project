@@ -1,6 +1,6 @@
 # GoTravel Website
 
-Site web de voyage réalisé en HTML, SCSS et BEM.
+Site web de voyage moderne développé en HTML, SCSS et méthodologie BEM, avec une structure propre, responsive et optimisée.
 
 ## Pages
 - Accueil

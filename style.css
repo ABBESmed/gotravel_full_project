@@ -724,6 +724,21 @@ a {
     text-align: center;
     width: 100%;
   }
+  .site-header__container.open {
+    background-color: red !important;
+  }
+  .site-header__container.open .site-header__actions {
+    display: flex;
+  }
+  .site-header__container.open .site-header__burger-line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  .site-header__container.open .site-header__burger-line:nth-child(2) {
+    opacity: 0;
+  }
+  .site-header__container.open .site-header__burger-line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
   .site-header__toggle:checked ~ .site-header__actions {
     display: flex;
   }

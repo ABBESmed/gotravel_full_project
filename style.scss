@@ -862,23 +862,27 @@ a {
       width: 100%;
     }
 
-    &__toggle:checked ~ &__actions {
-      display: flex;
+// Modifs en cours
+    &__container.open{
+      background-color:red!important;
+      .site-header{
+        // ///Attention pas de css ici
+        &__actions{
+           display: flex;
+        }
+        &__burger-line:nth-child(1) {
+          transform: translateY(10px) rotate(45deg);
+        }
+        &__burger-line:nth-child(2) {
+          opacity: 0;
+        }
+        &__burger-line:nth-child(3) {
+          transform: translateY(-10px) rotate(-45deg);
+        }
+      }
     }
-
-    &__toggle:checked + &__burger .site-header__burger-line:nth-child(1) {
-      transform: translateY(10px) rotate(45deg);
-    }
-
-    &__toggle:checked + &__burger .site-header__burger-line:nth-child(2) {
-      opacity: 0;
-    }
-
-    &__toggle:checked + &__burger .site-header__burger-line:nth-child(3) {
-      transform: translateY(-10px) rotate(-45deg);
-    }
-  }
-
+// TO DO releguer les modifs a la classe parent : .open
+   
   .hero {
     min-height: 60vh;
     padding: 80px 0;

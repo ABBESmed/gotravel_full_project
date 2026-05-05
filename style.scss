@@ -863,7 +863,7 @@ a {
     }
 
 // Modifs en cours
-    &__container.open{
+    & __container.open{
       background-color:red!important;
       .site-header{
         // ///Attention pas de css ici
@@ -881,6 +881,7 @@ a {
         }
       }
     }
+  }
 // TO DO releguer les modifs a la classe parent : .open
    
   .hero {
